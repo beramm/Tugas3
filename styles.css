@@ -20,8 +20,9 @@ img{
     width: 200px;
     height: 300px;
 }
-table{
-    border-width: thick;
-    color: solid black;
-    border-radius: 4px;
+table,th,td,tr{
+    background-color: slategray;
+    border: 2px;
+    border-color: black;
+    border:2px solid;
 }
