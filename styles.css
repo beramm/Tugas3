@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://pbs.twimg.com/media/FpHAGhBaYAEFa-r?format=jpg&name=small);
+}
+h1{
+    background-color: slategrey;
+}
+tagname{
+    color: yellow;
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+table{
+    border-width: thick;
+    color: solid black;
+    border-radius: 4px;
+}
