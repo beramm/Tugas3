@@ -6,22 +6,36 @@ body {
 }
 
 .Container {
-    background-image: url(https://pbs.twimg.com/media/Fp5efhAXwAAdl4q?format=jpg&name=small);
-    background-size: 100%;
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+.header .title{
     padding: 20px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-
+    font-size: 40px;
+    font-weight: italic;
 }
-
-h1 {
-    text-align: center;
+.header ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    
 }
+.header a{
+    color: slateblue;
+}
+.header a:hover{
+    background-color: darkgray;
+    color: red;
+}
+.header a:active{
+    color: black;
+}
+.pict{
+    height: 250px;
+    background-image: url(https://pbs.twimg.com/profile_banners/1219658790913445888/1586888093/600x200);
+    background-size: 100%;
+    padding-left: auto;
 
 
-.p1{
-    text-align: left;
-    background-color: bisque;
 }
